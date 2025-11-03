@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website of Yen Minh</title>
+
+    <style>
+        body {
+            background-color: #f4f4f4; 
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background-color: #ffffff; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+        
+        .center-content {
+            text-align: center;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        ul, ol {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        #notebook-feature {
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 90%; 
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header id="introduction" class="center-content">
+            <img src="image/hinh2.jpg" alt="Yen Minh Professional Portrait" style="width: 120px; border-radius: 50%;">
+            <h1>Nguyen Hoang Yen Minh</h1>
+            <h2>Welcome to homepage of Yen Minh!</h2>
+            <p>I am a student majoring in Psychology, passionate about Family Psychology, and currently seeking growth opportunities in Counciling field.</p>
+            <hr>
+        </header>
+
+        <section id="details">
+            <h2>Detailed Information</h2>
+
+            <h3>Education</h3>
+            <ul>
+                <li> Fulbright University Viet Nam - Major in Psychology (2021 - Present)</li>
+            </ul>
+
+            <h3>Skills</h3>
+            <h4>Research Skills</h4>
+            <ul>
+                <li>Statistical Analysis</li>
+                <li>Research Design</li>
+                <li>Data Collection & Survey Tools </li>
+            </ul>
+
+            <h4>Soft Skills</h4>
+            <ol>
+                <li>Communication</li>
+                <li>Problem Solving</li>
+                <li>Critical Thinking</li>
+            </ol>
+
+            <h3>Hobbies</h3>
+            <p>Outside of studies, I enjoy reading, travelling, and watching movies.</p>
+
+            <hr>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio & Projects</h2>
+
+            <div class="center-content">
+                <h3><a href="path_to_project_1_details.html">Body Tracking: Resilience Skill Practice</a></h3>
+                <p>Brief Description: <strong>"Body Tracking"</strong> was a class project organized to teach students how to use <strong>body sensation awareness</strong> to improve <strong>emotional self-regulation</strong> and <strong>resilience</strong>.</p>
+                <p>My Role: Co-Organizer & Project Coordinator </p> 
+                <a href="path_to_project_1_details.html"><img src="image/hinhproject1.jpg" alt="Project 1 Image" style="width: 300px;"></a>
+            </div>
+
+            <div class="center-content">
+                <h3>Project Name 2</h3>
+                <p>Brief Description: [Describe project 2].</p>
+                <p>Technologies Used: [HTML, JS, ...].</p>
+            </div>
+
+            <hr>
+        </section>
+
+        <section id="notebook-feature" style="border: 1px solid #ccc; padding: 20px; max-width: 500px; margin: 20px auto;">
+            <h2>My Personal Notebook</h2>
+            <p>Type your note below and click "Add Note". Notes will appear below and will not be saved after page reload.</p>
+            <div id="note-input-area">
+                <textarea id="note-text" rows="3" cols="50" placeholder="Write your note here..."></textarea><br>
+                <button id="add-note-btn">Add Note</button>
+            </div>
+            <hr>
+            <h3>Notes:</h3>
+            <div id="notes-display">
+            </div>
+        </section>
+
+        <script src="notebook.js"></script>
+
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <h3>Contact Information</h3>
+            <p>📧 Email: <a href="mailto:yenminhng09@gmail.com">yenminhng09@gmail.com</a></p>
+            <p>📞 Phone: (+84) 786 392 687</p>
+            <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/yen-minh-nguyen-516969248/">LinkedIn Profile Link</a></p>
+
+            <h3>Send Me a Message</h3>
+            <form action="#" method="POST">
+                <div style="text-align: left; max-width: 300px; margin: 0 auto;">
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required style="width: 100%;"><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required style="width: 100%;"><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required style="width: 100%;"></textarea><br><br>
+                </div>
+
+                <input type="submit" value="Send Message">
+            </form>
+
+            <hr>
+        </section>
+
+        <footer class="center-content">
+            <p>&copy; 2025 Nguyen H Yen Minh. All rights reserved.</p>
+        </footer>
+
+    </div> </body>
+</html>
