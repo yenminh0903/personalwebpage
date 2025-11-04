@@ -49,7 +49,3 @@ function addNote() {
 
 // Attach the addNote function to the button click event
 addNoteButton.addEventListener('click', addNote);
-
-// Note: Requirement: Notes only persist while the webpage is open; 
-// reloading the page clears all notes. This is the default behavior 
-// when not using technologies like LocalStorage, which aligns with the requirement.
